@@ -6,7 +6,10 @@ function verificarLogin() {
     let senha = document.getElementById("password").value;
 
     if (email.includes("@") && senha.length >= 6) {
-        alert("Login cadastrado com sucesso, indo para dashboard..");
+        let nome = prompt("Login bem-sucedido! Como você gostaria de ser chamado?");
+        alert(`Bem vindo ${nome}, estamos te redirecionando para outra pagina!`)
+
+        // Redirecionar para prox pagina
     } else {
         alert("Login invalido, Algum dos dados inseridos estão incorretos");
     }
