@@ -1,1 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.preview-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    background-color: #E6E6E3;
+}
+
+.preview-header {
+    text-align: center;
+}
+
+.preview-header h1 {
+
+}
+
+.preview-header h3 {
+    
+}
+
+.preview-modes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+
+.preview-modes h3 {
+    color: #3C3C3C;
+}
+
+
+.preview-modes img {
+    border: 1px solid none ;
+    border-radius: 60px;
+
+}
