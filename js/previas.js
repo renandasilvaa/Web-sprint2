@@ -52,6 +52,9 @@ function startSlideshow() {
 
     let choosenImage = slides[slideIndex];
     fileImage.src = choosenImage;
+}
 
-    // Pegar o fileImage e trocar o src: dela pela imagem do slides, mantendo as proporção
+
+function startDocumentos() {
+    alert("Nenhum documento encontrado, para mais informações veja o Chatbot!")
 }
