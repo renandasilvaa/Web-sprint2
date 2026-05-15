@@ -60,8 +60,12 @@
 .preview-modes img {
     border: 1px solid none ;
     border-radius: 60px;
-    
+    object-fit: cover;
 
+}
+
+#slideshow-pet {
+    transition: opacity 0.3s ease;
 }
 
 .preview-pet, .preview-docs, .preview-chatbot {

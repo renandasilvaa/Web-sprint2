@@ -1,10 +1,7 @@
-let faqs = {
-
-}
 
 function startChatbot() {
     let keepAsking = true 
-    
+
     while (keepAsking) {
         const escolha = prompt(
         "Bem-vindo ao JOVI Chatbot!\n\n" +
@@ -32,6 +29,29 @@ function startChatbot() {
             alert("Opção inválida. Tente digitar um número de 1 a 3.");
     }
     }
-
     
+}
+
+
+let slides = [
+    "assets/imgs/modo-pet.png",
+    "assets/slidesImgs/dachshund.jpg",
+    "assets/slidesImgs/pug.jpg",
+];
+
+let slideIndex = 0;
+
+function startSlideshow() {
+    let fileImage = document.getElementById("slideshow-pet");
+
+    slideIndex++;
+
+    if (slideIndex >= slides.length) {
+        slideIndex = 0
+    }
+
+    let choosenImage = slides[slideIndex];
+    fileImage.src = choosenImage;
+
+    // Pegar o fileImage e trocar o src: dela pela imagem do slides, mantendo as proporção
 }
